@@ -1,28 +1,29 @@
 import React, { useState } from "react"
+import { headerNav } from "../constants";
+// 해당 데이터를 index.js에 입력하여 위의 코드로 임포트함
+// const headerNav = [
+//   {
+//     title: "intro", 
+//     url: "#intro"
+//   },
+//   {
+//     title: "skill", 
+//     url: "#skill"
+//   },
+//   {
+//     title: "site", 
+//     url: "#site"
+//   },
+//   {
+//     title: "portfolio", 
+//     url: "#port"
+//   },
+//   {
+//     title: "contact", 
+//     url: "#contact"
+//   },
 
-const headerNav = [
-  {
-    title: "intro", 
-    url: "#intro"
-  },
-  {
-    title: "skill", 
-    url: "#skill"
-  },
-  {
-    title: "site", 
-    url: "#site"
-  },
-  {
-    title: "portfolio", 
-    url: "#port"
-  },
-  {
-    title: "contact", 
-    url: "#contact"
-  },
-
-]
+// ]
 
 const Header = () => {
   const [show, setShow] = useState(false);
